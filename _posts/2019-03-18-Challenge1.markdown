@@ -14,7 +14,6 @@ This challenge is to verify your ability to create IaaS resources such as
 * Ability to create Users, Compartments, Groups
 * Apply Basic Principles of IAM and create access privileges
 <!--more-->
---------------------------------
 
 ## About OKE 
 
@@ -23,8 +22,6 @@ This challenge is to verify your ability to create IaaS resources such as
 * [Oracle Kubernetes Engine](https://cloud.oracle.com/containers/kubernetes-engine)
 
 ## Why this Challenge:
-
-## Why this Challenge
 
 <table>
 <thead>
@@ -43,7 +40,7 @@ This challenge is to verify your ability to create IaaS resources such as
 		<td> ❌ </td>
 	</tr>
 	<tr>
-		<td>You setup the CI/CD pipeline on Wercker / Oracle Container Pipeline</td>
+		<td>You setup the CI/CD pipeline on Oracle Developer Cloud Service</td>
 		<td> ❌ </td>
 	</tr>
 	<tr>
@@ -72,7 +69,7 @@ This challenge is to verify your ability to create IaaS resources such as
 * A Write Up with 5 Bullet points not exceeding 50 words in each point, about the Key Differentiation factors of Oracle Kubernetes engine over AKS and EKS
 * Send your Email with 
   * `Subject Line: OCI Challenge-1`  **< Your Name >**
-  * `Email Recepients:` **[Vamsi](mailto:vamsi.ramakrishnan@oracle.com) && [Laksh](mailto:lakshmikanth.vasudevamurthy@oracle.com)**
+  * `Email Recepients:` **[Nitin](mailto:nitin.kaushik@oracle.com) && [Meenal](mailto:meenal.aggarwal@oracle.com)**
 
 ## Show me the Tutorials: 
 * [Setup an Oracle Kubernetes Cluster](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/oke-full/index.html)

@@ -12,7 +12,6 @@ This challenge is to verify your ability to create a PaaS service like Developer
 * Ability to import a Github repo
 * Add teammates to your project and give them read-only access
 <!--more-->
--------------------
 
 
 ## About Oracle Developer Cloud Service 
@@ -38,7 +37,7 @@ This challenge is to verify your ability to create a PaaS service like Developer
 		<td> You are Here </td>
 	</tr>
 	<tr>
-		<td>You setup the CI/CD pipeline on Wercker / Oracle Container Pipeline</td>
+		<td>You setup the CI/CD pipeline on Oracle Developer Cloud Service</td>
 		<td> ❌ </td>
 	</tr>
 	<tr>
@@ -84,10 +83,10 @@ This challenge is to verify your ability to create a PaaS service like Developer
 * A Write Up with 5 Bullet points not exceeding 50 words in each point, about the `Key Differentiation factors` of `Oracle Developer Cloud Service`
 * Send your Email with 
   * `Subject Line: OCI Challenge-2 | < Your Name >`
-  * `Email Recepients:` **[Vamsi](mailto:vamsi.ramakrishnan@oracle.com) && [Laksh](mailto:lakshmikanth.vasudevamurthy@oracle.com)**
+  * `Email Recepients:` **[Nitin](mailto:nitin.kaushik@oracle.com) && [Meenal](mailto:meenal.aggarwal@oracle.com)**
 * Provide `Read-Only Access` for your Developer Cloud Service Git Repos in
-  * Vamsi : vamsi.ramakrishnan@oracle.com**
-  * Laksh : lakshmikanth.vasudevamurthy@oracle.com**
+  * Nitin : nitin.kaushik@oracle.com**
+  * Meenal : meenal.aggarwal@oracle.com**
 
 ## Show me the tutorials 
 * [Getting Started with DevCS](https://docs.oracle.com/en/cloud/paas/developer-cloud/index.html)

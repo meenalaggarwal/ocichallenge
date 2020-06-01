@@ -42,7 +42,7 @@ This challenge is to verify your ability to
 		<td> ✔️ </td>
 	</tr>
 	<tr>
-		<td>You setup the CI/CD pipeline on Wercker / Oracle Container Pipeline</td>
+		<td>You setup the CI/CD pipeline on Oracle Developer Cloud Service</td>
 		<td> ✔️ </td>
 	</tr>
 	<tr>
@@ -77,7 +77,7 @@ This challenge is to verify your ability to
 * What are your learnings about the prometheus and grafana ecosystem 
 * Send your Email with 
   * `Subject Line: OCI Challenge-6`  **< Your Name >**
-  * `Email Recepients:` **[Vamsi](mailto:vamsi.ramakrishnan@oracle.com) && [Laksh](mailto:lakshmikanth.vasudevamurthy@oracle.com)**
+  * `Email Recepients:` **[Nitin](mailto:nitin.kaushik@oracle.com) && [Meenal](mailto:meenal.aggarwal@oracle.com)**
 
 ## Show me the tutorials 
 * [Further Reading ](https://kubernetes.io/blog/2017/01/running-mongodb-on-kubernetes-with-statefulsets/)

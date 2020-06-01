@@ -35,7 +35,7 @@ This challenge is to verify your ability to
 		<td> ✔️ </td>
 	</tr>
 	<tr>
-		<td>You setup the CI/CD pipeline on Wercker / Oracle Container Pipeline</td>
+		<td>You setup the CI/CD pipeline on Oracle Developer Cloud Service</td>
 		<td> ✔️ </td>
 	</tr>
 	<tr>
