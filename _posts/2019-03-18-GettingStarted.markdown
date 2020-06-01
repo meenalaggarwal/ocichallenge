@@ -22,7 +22,7 @@ Go to this Link to get your free Oracle Cloud Account for 30 days
 If you have trouble in setting it up 
 
 > **Contact**: Nitin Kaushik  \\
-> **Email**: (mailto:nitin.kaushik@oracle.com)
+> **Email**: nitin.kaushik@oracle.com
 
 Other Handy Tools 
 ---------

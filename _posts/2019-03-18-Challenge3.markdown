@@ -9,6 +9,7 @@ About this challenge
 ---
 This challenge is to verify your ability to use a Cloud Native service 
 * Configure Pipelines and Steps and build
+* Push artificats to OCIR
 * Deploy on OKE
 <!--more-->
 
@@ -53,22 +54,18 @@ This challenge is to verify your ability to use a Cloud Native service
 </table>
 
 ## About the steps
-* If you checkout your Repos `ora-se-symposium-front-end` and `ora-se-symposium-backend` you will see a `Wercker.yml` file which has the CI/CD Pipeline defined in it. 
-* Make sure you create these two applications within Wercker
-* You would have to give your `Oracle Cloud ID` to associate it with `Developer Cloud Service` where your repositories reside
+* If you checkout your Repos `ora-se-symposium-front-end` and `ora-se-symposium-backend` you will see a Wercker.yml file which has the CI/CD Pipeline defined in it. Replicate the steps in Oracle DevCS Build section.
+* Create 2 separate build and deployment pipelines for the frontend and backend.
+* You would have to push your build artifacts to OCIR (Registry) and fetch them during the deployment process.
 
 ## What will we Verify here : 
-* Have you setup the Build and Deployment Pipeline as described in the `Wercker.yml` file
+* Have you setup the Build and Deployment Pipeline as described in the Wercker.yml file
 * Provide Read-Only Access to as Team members
-  * **Vamsi : vamsi.ramakrishnan@oracle.com**
-  * **Laksh : lakshmikanth.vasudevamurthy@oracle.com**
+  * **Nitin : nitin.kaushik@oracle.com**
+  * **Meenal : meenal.aggarwal@oracle.com**
 
 ## Submission Format: 
-* A Write Up with 5 Bullet points not exceeding 50 words in each point, about the `Key Differentiation factors` of `Oracle Container Pipeline/Wercker`
+* A Write Up with 5 Bullet points not exceeding 50 words in each point, about the `Key Differentiation factors` of `Oracle Developer Cloud Service`
 * Send your Email with 
   * `Subject Line: OCI Challenge-3`  **< Your Name >**
-  * `Email Recepients:` **[Vamsi](mailto:vamsi.ramakrishnan@oracle.com) && [Laksh](mailto:lakshmikanth.vasudevamurthy@oracle.com)**
-
-## Show me the tutorials 
-* [Getting Started with Wercker/Oracle Container Pipelines](https://devcenter.wercker.com/introductions/)
-
+  * `Email Recepients:` **[Nitin](mailto:nitin.kaushik@oracle.com) && [Meenal](mailto:meenal.aggarwal@oracle.com)**

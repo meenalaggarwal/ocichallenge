@@ -9,7 +9,7 @@ About this Challenge
 ---
 
 This challenge is to verify your ability to 
-* Setup the Wercker ENV Variables to actually deploy the Front End and Backend
+* Setup the ENV Variables/Parameters to actually deploy the Front End and Backend
 * Commit Changes to the Readme Files and verify if the deployment gets updated on the Kubernetes Cluster
 <!--more-->
 ![View](https://storage.googleapis.com/cdn.thenewstack.io/media/2017/11/07751442-deployment.png)
@@ -74,13 +74,13 @@ This challenge is to verify your ability to
 * Here's the [documentation](https://docs.cloud.oracle.com/iaas/Content/Object/Tasks/usingpreauthenticatedrequests.htm) that tells you how
 
 
-#### Setup Wercker Env Variables
+#### Setup DevCS Parameter [Env Variables]
 ----
-> Wercker ENV Variables need to be set for each Application
+> DevCS Parameter need to be set for each Application
 
-* The Wercker ENV Variables are used to abstract hardcoded values so the repos can be re-used in other environments
-* The names of the ENV Variables are different for both repos, Bonus points for cleaning up these ambiguities
-* There are some hardcoded values in the config.json of the front end repo , if you can add them as ENV Variables you get bonus points
+* The DevCS Parameter are used to abstract hardcoded values so the repos can be re-used in other environments
+* The names of the DevCS Parameter are different for both repos, Bonus points for cleaning up these ambiguities
+* There are some hardcoded values in the config.json of the front end repo , if you can add them as DevCS Parameter you get bonus points
 
 <u>**Backend API Environment Variables**</u>
 
@@ -122,7 +122,7 @@ This challenge is to verify your ability to
 
 ### Deploy & Test Backend API
 ------
-* Update Readme.md to trigger a build, it should pass through three phases in Wercker before `Kubernetes Deploy` gets invoked and the actual deployment happens
+* Update Readme.md to trigger a build, it should pass through build pipeline in DevCS before `Kubernetes Deploy` gets invoked and the actual deployment happens
 
 * Once the deployment is successful, you should be able to see `Pods`, `ReplicaSets`,`Deployments`, `Services`. 
 
@@ -166,7 +166,7 @@ This challenge is to verify your ability to
 #### Deploy Frontend 
 * Trigger a deployment once all these parametes have been set.
 * The frontend is a react App that is heavy and takes a while to build and deploy, so get it right the first time to avoid iterative delays
-* Once the deployment is done on Wercker run the following command
+* Once the deployment is done on DevCS run the following command
 
         kubectl -n <YOUR NAMESPACE> get services
         
@@ -181,10 +181,10 @@ This challenge is to verify your ability to
 * Verify if all Pods are in running state and verify connectivity from within the cluster in MongoDB
 
 ## Submission Format: 
-* A Write Up with 5 Bullet points not exceeding 50 words in each point, about the `learnings while **deploying the Front End , backend and debugging **` using `**Wercker**`. 
+* A Write Up with 5 Bullet points not exceeding 50 words in each point, about the `learnings while **deploying the Front End , backend and debugging **` using `**DevCS**`. 
 * Send your Email with 
   > `Subject Line: OCI Challenge-5` < Your Name > 
-  > `Email Recepients:` [Vamsi](mailto:vamsi.ramakrishnan@oracle.com) && [Laksh](mailto:lakshmikanth.vasudevamurthy@oracle.com)
+  > `Email Recepients:` [Nitin](mailto:nitin.kaushik@oracle.com) && [Meenal](mailto:meenal.aggarwal@oracle.com)
 
 ## Show me the tutorials 
 * [Further Reading ](https://kubernetes.io/blog/2017/01/running-mongodb-on-kubernetes-with-statefulsets/)
